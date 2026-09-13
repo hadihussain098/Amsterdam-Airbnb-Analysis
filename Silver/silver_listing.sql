@@ -58,7 +58,7 @@ Insert into silver_listing(
 Select 
 Try_cast(id AS int) As id,
 neighbourhood_cleansed,
-CASE WHEN property_type = 'ShepherdGÇÖs hut' 
+CASE WHEN property_type = 'ShepherdGÃ‡Ã–s hut' 
      THEN 'Shepherd''s hut'
      ELSE property_type
 END as property_type,
