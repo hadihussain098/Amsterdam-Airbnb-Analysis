@@ -50,7 +50,7 @@ where trim(neighbourhood_cleansed) != neighbourhood_cleansed or (neighbourhood_c
 -- we have spelling mistake in shehpard huts
 -- Fix applied in silver layer INSERT:
 
-CASE WHEN property_type = 'ShepherdGÇÖs hut' 
+CASE WHEN property_type = 'ShepherdGÃ‡Ã–s hut' 
      THEN 'Shepherd''s hut'
      ELSE property_type
 END as property_type
