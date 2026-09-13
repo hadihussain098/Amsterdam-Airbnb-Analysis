@@ -95,31 +95,28 @@ Custom formula created combining:
 
 ---
 
+
 ## Folder Structure
 
-amsterdam-airbnb-analysis/
-│
-├── bronze/
-│ └── bronze_airbnb.sql
-│
-├── silver/
-│ ├── silver_exploration.sql
-│ ├── silver_listing.sql
-│ └── silver_host.sql
-│
-├── gold/
-│ ├── 01_cheapest_neighbourhoods.sql
-│ ├── 02_highest_rated_neighbourhoods.sql
-│ ├── 03_best_room_type.sql
-│ ├── 04_rip_off_listings.sql
-│ ├── 05_superhost_analysis.sql
-│ ├── 06_best_value_neighbourhoods.sql
-│ ├── 07_rank_by_value_score.sql
-│ ├── 08_price_bands.sql
-│ ├── 09_overcharging_hosts.sql
-│ └── 10_tourist_score.sql
-│└── README.md
-
+```
+📁 Bronze/
+   └── bronze_airbnb.sql
+📁 Silver/
+   ├── silver_exploration.sql
+   ├── silver_listing.sql
+   └── silver_host.sql
+📁 Gold/
+   ├── 01_cheapest_neighbourhoods.sql
+   ├── 02_highest_rated_neighbourhoods.sql
+   ├── 03_best_room_type.sql
+   ├── 04_rip_off_listings.sql
+   ├── 05_superhost_analysis.sql
+   ├── 06_best_value_neighbourhoods.sql
+   ├── 07_rank_by_value_score.sql
+   ├── 08_price_bands.sql
+   ├── 09_overcharging_hosts.sql
+   └── 10_tourist_score.sql
+```
 
 ---
 
